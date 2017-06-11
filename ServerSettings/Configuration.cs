@@ -31,6 +31,24 @@ namespace ServerSettings
         public void LoadDefaults()
         {
             Enabled = true;
+            HideRocketPlugins = false;
+            ReplaceRocketPlugins = true;
+            CustomRocketPluginsText = "THIS IS A ROCKET MEME";
+            HideWorkshopItems = false;
+            ReplaceConfigItems = true;
+            CustomWorkshopItemsText = "THIS IS A WORKSHOP MEME";
+            WorkshopLinesCount = 5;
+            HideConfigItems = false;
+            ReplaceConfigItems = true;
+            CustomConfigItemsText = "THIS IS A CONFIG MEME";
+            ConfigLinesCount = 5;
+            EnableMaxPlayers = true;
+            MaxServerPlayers = 12;
+            EnableCustomServerName = true;
+            ServerName = "THIS IS A SERVER MEME";
+            EnableCustomMapName = true;
+            MapCustomName = "MEMEP";
+            ResetToDefault = false;
         }
     }
 }
